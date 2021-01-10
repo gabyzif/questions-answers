@@ -10,6 +10,20 @@ Useful js / react /cheat sheet for interviews and life darling. :star_struck:
 - They are all hoisted to the top of their scope. But while var variables are initialized with undefined, let and const variables are not initialized.
 - While var and let can be declared without being initialized, const must be initialized during declaration.
 
+**Prototype Inheritance**
+All JavaScript objects inherit properties and methods from a prototype:
+
+Date objects inherit from Date.prototype
+Array objects inherit from Array.prototype
+Person objects inherit from Person.prototype
+The Object.prototype is on the top of the prototype inheritance chain:
+
+Date objects, Array objects, and Person objects inherit from Object.prototype.
+
+*+Event Loop**
+
+The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, it will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
+
 Difference between map and foreach
 
 **Foreach**:
