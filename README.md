@@ -25,6 +25,7 @@ Date objects, Array objects, and Person objects inherit from Object.prototype.
 
 The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack is empty, it will take the first event from the queue and will push it to the Call Stack, which effectively runs it.
 
+More info: [https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript](https://www.educative.io/edpresso/what-is-an-event-loop-in-javascript)
 Difference between map and foreach
 
 **Foreach**:
